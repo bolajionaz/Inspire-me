@@ -1,0 +1,44 @@
+video{
+   width:1400px;
+    height: 517px;
+    /* object-fit: cover; */
+    object-position: 50% 50%;
+}
+
+.services{
+    background: #D0A149;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.lesson{
+    height: 200px;
+    width: 50px;
+    border-style:solid;
+    border-width: 2px;
+    border-radius:4px;
+
+    
+}
+
+.workshop{
+    height: 200px;
+    width: 50px;
+    border-style:solid;
+    border-width: 2px;
+    border-radius:4px;
+
+    
+    
+}
+
+.camp{
+    height: 200px;
+    width: 50px;
+    border-style:solid;
+    border-width: 2px;
+    border-radius:4px;
+   
+    
+    
+}
