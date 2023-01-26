@@ -1,3 +1,16 @@
+body{
+    font-family: Audiowide;
+}
+
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  
 video{
    width:1400px;
     height: 517px;
@@ -5,40 +18,56 @@ video{
     object-position: 50% 50%;
 }
 
+
 .services{
     background: #D0A149;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    padding:40px;
 }
 
 .lesson{
-    height: 200px;
-    width: 50px;
-    border-style:solid;
+    /* height: 300px; */
+    
+    /* border-style:solid;
     border-width: 2px;
-    border-radius:4px;
-
+    border-radius:4px; */
+    padding:40px;
     
 }
 
 .workshop{
-    height: 200px;
-    width: 50px;
-    border-style:solid;
-    border-width: 2px;
-    border-radius:4px;
+    /* height: 300px; */
 
+    /* border-style:solid;
+    border-width: 2px;
+    border-radius:4px; */
+    padding:40px;
     
     
 }
 
 .camp{
-    height: 200px;
-    width: 50px;
-    border-style:solid;
+    /* height: 300px; */
+    /* border-style:solid;
     border-width: 2px;
-    border-radius:4px;
-   
+    border-radius:4px; */
+    padding:40px;
     
     
+}
+
+.service-img{
+    height:200px;
+    width:200px;
+}
+
+
+.no-bullet{
+    list-style-type: none;
+}
+
+.body-text{
+    margin-left: 10px;
+    margin-right: 10px;
 }

@@ -2,18 +2,29 @@
 <html>
 <head>
   <title>TryAgain Sessions</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="img/tasicon.ico">
   <link rel="stylesheet" type="text/css" href="./style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://kit.fontawesome.com/965a841ebe.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
 </head>
 <body>
 
    <!--Nav Bar-->
-   <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark"data-bs-theme="dark">
-    <div class="container-fluid">
+   
+   <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark  "data-bs-theme="dark">
+
+  <!--mobile menu-->
+
+    <div class="container-fluid .col-sm-6 .col-lg-8">
         <a class="navbar-brand" href="#">
           <img src="img/Drummer logo gold.png" alt="tryagainsessions-logo" width="55" height="55" class="d-inline-block align-text-middle"> TryAgain Sessions
         </a>
       </div>
+  
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -23,77 +34,127 @@
             <a class="nav-link" style="width: 6rem;" href="#about">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="width: 6rem;" href="#inspire-me">Inspire Me</a>
+            <a class="nav-link" style="width: 7rem;" href="#inspire-me">Inspire Me</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" style="width: 7rem;" href="#contact">Contact Us</a>
           </li>
         </ul>
       </div>
+     
     </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa-solid fa-bars"></i>
+    </a>
+
+    <!-- end mobile-->
+  </div>
   </nav>
  
   <!--Video-->
          <div class="container">
-          <video src="Tryagain- video.mp4" alt="tryagainsessions-promo-video" class=" col-sm-3 col-md-12 col-lg-12 object-fit-contain"  autoplay muted>
+          <video src="Tryagain- video.mp4" alt="tryagainsessions-promo-video" class=" col-sm-12 col-md-12 col-lg-12 object-fit-contain " autoplay muted>
           </video>
         </div>
     
-  <!--About US-->
-  <h2 id=about class="display-3 text-center p-2">Welcome To TryAgain Sessions</h2>
-  <p class="text-center"> Insipre | Encourage| Educate | Unlock potential</p>
+  <!--heading-->
+  <h2 class="display-3 text-center p-2 col-sm-12 col-md-12 col-lg-12">Welcome To TryAgain Sessions</h2>
+  <p class="text-center col-sm-12 col-md-12 col-lg-12"> Inspire | Encourage| Educate | Unlock potential</p>
   <br>
-
-    <div class="clearfix p-5">
-
-      <img src="img/data_storage_2_2.png" style="width:100px; height:100px;" class="col-md-6 float-md-end mb-3 ms-md-3" alt="tryagain promo video">
-    
+<!--About Us-->
+<h4 id=about class="display-4 text-center px-2 "><u>About Us</u></h4>
+    <div class="body-text px-5">
+      <!-- <img src="img/data_storage_2_2.png" style="width:100px; height:100px;" class="col-md-6 float-md-end mb-3 ms-md-3" alt="tryagain promo video"> -->
       <p>
-        A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+        TryAgain Sessions - a social enterprise initiative and drumming school that aims to tutor young people within the local community - and we believe your collaboration would be of great help and support to fulfilling our ethos.
       </p>
     
-      <p>
-        As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+      We specialise in teaching drums- introducing the art of drumming to those keen to develop and grow a new musical skill. We believe doing this will be a great benefit to the community by giving the young generation a n opportunity to express themselves musically and creatively. <br>
+      <br>Our incentive is to inspire and motivate young people through music classes, workshops, and conference activities, to prevent them from falling into drugs, alcohol, smoking and any anti-social behaviours. 
+        <p>
+        <br>
+        Over the course of 5 years, we have seen young people emerge from novices to an intermediate level and some experts. We trust that partnering with you would help reach more students in the local community, and give them the necessary resources they need to realise their potential.<br>
+        <br><strong>The moto behind TryAgain Sessions is 'Never Give Up' and so we aim to:</strong>
       </p>
-    
-      <p>
-        And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
-      </p>
+      <ul>
+        <li> Encourage and Inspire</li>
+        <li>Shine the light of hope</li>
+        <li>Transfer Knowledge</li>
+        <li>Unlock potentials</li>
+        <li>Educate</li>
+      </ul>
     </div>
 
     <!--Inspire Me heading-->
-    <h4 id=inspire-me class="display-4 text-center p-2">Inspire Me</h4>
+    <section class="col-sm-12 col-md-12 col-lg-12">
+    <h4 id=inspire-me class="display-4 text-center p-2"><u>Inspire Me</u></h4>
     <!--container-->
-    <div class="services container text-center">
-      <div class="row p-5">
-        <div class="  col-lg-4 col-md-4 col-sm-12 lesson">
-          Lessons
+    <div class=" main-container text-center">
+      <div class=" services row">
+
+        <div class="col-lg-3 col-md-3 col-sm-3 ">
+          <div class="card lesson">
+            <div class="card-body">
+              <h5 class="card-title">Lessons</h5>
+              <img class="card-text service-img" src="img/tas service/lesson-2.png" alt="image-of-lesson">
+            </div>
+          </div>
         </div>
-        <div class=" col-lg-4 col-md-4 col-sm-12 workshop">
-          Workshops
+
+        <div class="col-lg-3 col-md-3 col-sm-4">
+          <div class="card workshop">
+          <div class="card-body">
+            <h5 class="card-title">Workshops</h5>
+            <img class="card-text service-img" src="img/tas service/workshop-1.png" alt="workshop-image">
+            </div>
+          </div>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 camp">
-          Camp
+    
+
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <div class="card camp">
+          <div class="card-body">
+            <h5 class="card-title">Camp</h5>
+            <img class="card-text service-img" src="img/tas service/camp-3.png" alt="camp-image-session">
+          </div>
+        </div>
         </div>
       </div>
-    </div>
+    </div></section>
 <br>
   <!--Contact Us-->
 
   <div  class="card text-center">
     <div class="card-header">
-      Contact Us
+      <h5 class="h5 text-center">Contact Us</h6>
     </div>
     <div class="card-body">
-      <h5 id=contact class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <h5 id=contact class="card-title">Book your session with us </h5>
+      <ul>
+        <li class="d-inline p-2 no-bullet"><i class="fa-sharp fa-solid fa-phone"></i> 07426113640</li>
+        <li class="d-inline p-2 no-bullet"><i class="fa-regular fa-envelope"></i> tryagainsessions@gmail.com</li>
+      </ul>
+      <p class="card-text">Terms and conditions</p>
     </div>
+
+    <!--Footer-->
     <div class="card-footer text-muted">
-      <footer class="zone black">Copyright © 2022 TryAgain Sessions. All rights reserved. TryAgains Sessions</footer>
+      <footer class="zone black">Copyright © 2022 TryAgain Sessions. All rights reserved. TryAgains Sessions CIC</footer>
     </div>
   </div>
 
- 
-</div>
+
+
+<script src="https://kit.fontawesome.com/965a841ebe.js" crossorigin="anonymous"></script>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  </script>
 </body>
 </html>
