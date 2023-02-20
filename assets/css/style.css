@@ -39,12 +39,14 @@ h1, h2{
 h3,h4, h5{
   font-family: 'Agrandir-light', Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: 1px;
+  text-align:justify;
 }
 
 p{
   font-family: 'Agrandir-light', sans-serif;
   font-size: 20px;
   letter-spacing: 1px;
+  text-align:justify;
 }
 
 /* Cover section of services */
